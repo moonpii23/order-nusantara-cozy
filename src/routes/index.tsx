@@ -157,7 +157,7 @@ function About() {
   ];
 
   return (
-    <section id="tentang" className="section-padding bg-background">
+    <section id="tentang" className="py-16 md:py-24 bg-background">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <div className="order-2 lg:order-1">
@@ -236,7 +236,7 @@ function Testimonials() {
   ];
 
   return (
-    <section id="testimoni" className="section-padding bg-cream">
+    <section id="testimoni" className="py-16 md:py-24 bg-cream">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <span className="text-sm font-semibold uppercase tracking-wider text-coffee-light">
