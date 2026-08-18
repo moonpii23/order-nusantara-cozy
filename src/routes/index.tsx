@@ -11,8 +11,6 @@ import { FloatingWhatsApp } from "@/components/floating-whatsapp";
 const WHATSAPP_URL =
   "https://wa.me/6281234567890?text=Halo%20Kopi%20Nusantara,%20saya%20ingin%20memesan%20kopi.";
 
-const OG_IMAGE = "https://cdn.gpteng.co/blank-app-v1.svg";
-
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
@@ -32,7 +30,6 @@ export const Route = createFileRoute("/")({
           "Dari petani lokal langsung ke cangkir Anda. Nikmati kopi single-origin Indonesia terbaik.",
       },
       { property: "og:type", content: "website" },
-      { property: "og:image", content: OG_IMAGE },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "Kopi Nusantara — Cita Rasa Asli Indonesia" },
       {
@@ -40,7 +37,6 @@ export const Route = createFileRoute("/")({
         content:
           "Dari petani lokal langsung ke cangkir Anda. Nikmati kopi single-origin Indonesia terbaik.",
       },
-      { name: "twitter:image", content: OG_IMAGE },
     ],
   }),
   component: Index,
