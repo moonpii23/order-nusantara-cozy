@@ -7,6 +7,7 @@ import avatarRian from "@/assets/avatar-rian.jpg";
 import avatarAnisa from "@/assets/avatar-anisa.jpg";
 import avatarBudi from "@/assets/avatar-budi.jpg";
 import { FloatingWhatsApp } from "@/components/floating-whatsapp";
+import { MenuSection } from "@/components/menu-section";
 
 const WHATSAPP_URL =
   "https://wa.me/6281234567890?text=Halo%20Kopi%20Nusantara,%20saya%20ingin%20memesan%20kopi.";
@@ -67,6 +68,9 @@ function Header() {
           <a href="#tentang" className="transition-colors hover:text-primary-foreground">
             Tentang
           </a>
+          <a href="#menu" className="transition-colors hover:text-primary-foreground">
+            Menu
+          </a>
           <a href="#testimoni" className="transition-colors hover:text-primary-foreground">
             Testimoni
           </a>
@@ -121,7 +125,7 @@ function Hero() {
             Pesan Sekarang via WhatsApp
           </a>
           <a
-            href="#tentang"
+            href="#menu"
             className="inline-flex items-center justify-center gap-2 rounded-full border border-white/30 bg-white/10 px-8 py-4 text-base font-semibold text-primary-foreground backdrop-blur-sm transition-colors hover:bg-white/20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
           >
             Lihat Menu Kami
@@ -375,6 +379,7 @@ function Index() {
       <main>
         <Hero />
         <About />
+        <MenuSection />
         <Testimonials />
       </main>
       <Footer />
