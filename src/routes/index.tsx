@@ -7,6 +7,7 @@ import avatarRian from "@/assets/avatar-rian.jpg";
 import avatarAnisa from "@/assets/avatar-anisa.jpg";
 import avatarBudi from "@/assets/avatar-budi.jpg";
 import { FloatingWhatsApp } from "@/components/floating-whatsapp";
+import { MenuSection } from "@/components/menu-section";
 
 const WHATSAPP_URL =
   "https://wa.me/6281234567890?text=Halo%20Kopi%20Nusantara,%20saya%20ingin%20memesan%20kopi.";
